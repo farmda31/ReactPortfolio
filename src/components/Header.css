@@ -1,0 +1,38 @@
+.header {
+    display: flex;
+    flex-direction: column; /* Stack name and nav vertically */
+    background-image:('/assets/background_header.jpg'); /* Path to your background image */
+    background-size: cover; /* Cover the entire header area */
+    background-position: center; /* Center the background image */
+    color: white; /* Text color */
+    padding: 20px; /* Padding for the header */
+    text-align: center; /* Center the text */
+}
+
+.header-name {
+    font-size: 2rem; /* Adjust font size as needed */
+    margin-bottom: 10px; /* Space between name and nav */
+}
+
+.header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.header nav ul li a {
+    color: rgb(2, 6, 68); /* Change to whatever color you prefer */
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.header nav ul li a:hover {
+    text-decoration: underline; /* Optional: add hover effect */
+}
