@@ -1,0 +1,47 @@
+/* Use the global class */
+.header {
+  composes: background-cover; /* Use this if you are using CSS Modules */
+}
+
+.profile-pic {
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.about-me {
+    background-color: #001f3f; /* Dark blue background */
+    color: white; /* White text color */
+    padding: 20px; /* Some padding */
+    min-height: 100vh; /* Full height */
+    text-align: left; /* Align text to the left */
+}
+
+.about-me h1 {
+    font-size: 2.5em; /* Larger font size for the heading */
+    text-align: center; /* Align text to the left */
+}
+
+.about-me p {
+    font-size: 1.2em; /* Slightly larger font size for paragraphs */
+    text-align: left; /* Align text to the left */
+}
+
+.footer {
+    display: flex;
+    justify-content: center; /* Center the logos */
+    align-items: center; /* Center vertically */
+    padding: 20px; /* Add some padding */
+    background-color: #f8f9fa; /* Background color for the footer */
+  }
+  
+  .logo {
+    width: 40px; /* Set a width for the logos */
+    height: auto; /* Maintain aspect ratio */
+    margin: 0 10px; /* Add some space between logos */
+    transition: transform 0.3s; /* Add a transition for hover effect */
+  }
+  
+  .logo:hover {
+    transform: scale(1.1); /* Scale up the logo on hover */
+  }
