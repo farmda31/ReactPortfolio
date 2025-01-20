@@ -6,7 +6,7 @@ import employeeTrackerProjectImage from "../assets/Employee_Tracker.png";
 import readMeGeneratorProjectImage from "../assets/Read_Me_Generator.png";
 import githubLogo from "../assets/github-logo.png"; // Update with the correct path
 import linkedinLogo from "../assets/linkedin-logo.png"; // Update with the correct path
-import flavorFinderImage from "../assets/flavor-finder.png";
+import flavorFinderImage from "../assets/Flavor-Finder.png";
 import day1Image from "../assets/Day_1.png";
 import slack from "../assets/Slack.png";
 import './Portfolio.css';
