@@ -1,8 +1,15 @@
-# React + Vite
+    # React Portfolio
+    
+    ## Description
+    I created a portfolio that uses React.  This is hosted at https://dfreactportfolioku20.netlify.app/ so that I can show off recent work that I've completed.  Ideally, once I am ready to intereview, I can show that I know how to use many different applications for coding.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+    ## Installation
+    To use the application, no installation is required.  Users can go to https://dfreactportfolioku20.netlify.app/.
 
-Currently, two official plugins are available:
+    To make edits for this application, users will need to install vite.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+    ## License
+    There is no license required to use this applicaiton.
+
+    ## Questions
+    You can reach me via email at daniel.farmer3@gmail.com
