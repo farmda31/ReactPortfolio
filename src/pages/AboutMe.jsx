@@ -2,7 +2,7 @@ import React from 'react';
 import './AboutMe.css';
 import githubLogo from "../assets/github-logo.png"; // Update with the correct path
 import linkedinLogo from "../assets/linkedin-logo.png"; // Update with the correct path
-import profile_pic from "../assets/profile_pic.png"; // Update with the correct path
+import profile_pic from "../assets/Profile_pic.png"; // Update with the correct path
 import slack from "../assets/Slack.png";
 
 const AboutMe = () => {
