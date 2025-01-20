@@ -7,7 +7,7 @@
     ## Installation
     To use the application, no installation is required.  Users can go to https://dfreactportfolioku20.netlify.app/.
 
-    To make edits for this application, users will need to install vite.
+    To make edits for this application, users will need to install vite and utilize the source code located at https://github.com/farmda31/ReactPortfolio.
 
     ## License
     There is no license required to use this applicaiton.
