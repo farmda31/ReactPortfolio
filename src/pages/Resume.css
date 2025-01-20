@@ -1,0 +1,57 @@
+/* Use the global class */
+.header {
+    composes: background-cover; /* Use this if you are using CSS Modules */
+}
+
+.resume-page {
+    background-color: #001f3f; /* Optional: Set a background color */
+    color: white; /* Set all text color to white */
+    padding: 20px; /* Optional: Add some padding */
+}
+
+body {
+    background-color: #001f3f; /* Dark blue background */
+    color: white; /* White text color */
+    font-family: Arial, sans-serif; /* Font family for the text */
+    margin: 0; /* Remove default margin */
+    padding: 20px; /* Add some padding */
+}
+
+.resume-page h1 {
+    font-size: 2.5em; /* Larger font size for the heading */
+    margin-bottom: 20px; /* Space below the heading */
+    text-align: left; /* Align text to the left */
+    color: white;
+}
+
+.resume-page h2 {
+    font-size: 2em; /* Large font size for subheadings */
+    margin-top: 20px; /* Space above the subheading */
+    margin-bottom: 10px; /* Space below the subheading */
+    text-align: left; /* Align text to the left */
+    color: white;
+}
+
+.resume-page a:hover {
+    color: #ccc; /* Change link color on hover */
+}
+
+li {
+    margin-bottom: 10px; /* Space between list items */
+    text-align: left; /* Align text to the left */
+    color: white
+}
+
+p {
+    font-size: 1.2em; /* Font size for paragraphs */
+    line-height: 1.5; /* Line height for readability */
+    text-align: left; /* Align text to the left */
+}
+
+a {
+    text-decoration: underline; /* Underline links */
+}
+
+a:hover {
+    color: #ffcc00; /* Change link color on hover */
+}

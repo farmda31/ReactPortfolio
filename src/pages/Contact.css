@@ -1,0 +1,81 @@
+/* Use the global class */
+.header {
+  composes: background-cover; /* Use this if you are using CSS Modules */
+}
+
+.contact {
+  background-color: #001f3f; /* Dark blue background */
+  color: white; /* White text color */
+  padding: 20px; /* Some padding */
+  min-height: 100vh; /* Full height */
+}
+
+.contact h1 {
+  font-size: 2.5em; /* Larger font size for the heading */
+  margin: 0;
+  text-align: left; /* Align text to the left */
+}
+
+.contact h2 {
+  font-size: 2.5em; /* Larger font size for the heading */
+  margin: 0;
+  text-align: left; /* Align text to the left */
+}
+
+.contact input[type="text"],
+.contact input[type="email"],
+.contact textarea {
+  width: 100%; /* Full width */
+  padding: 10px; /* Padding inside the input */
+  margin-bottom: 15px; /* Spacing between inputs */
+  border: 1px solid #ccc; /* Light border */
+  border-radius: 5px; /* Rounded corners */
+  box-sizing: border-box; /* Include padding and border in total width */
+  text-align: left; /* Align text to the left */
+}
+
+.contact textarea {
+  height: 150px; /* Set a height for the textarea */
+}
+
+.contact input[type="submit"] {
+  width: 100%; /* Full width */
+  padding: 10px; /* Padding inside the input */
+  margin-bottom: 15px; /* Spacing between inputs */
+  border: 1px solid #ccc; /* Light border */
+  border-radius: 5px; /* Rounded corners */
+  box-sizing: border-box; /* Include padding and border in total width */
+  text-align: left; /* Align text to the left */
+  background-color: grey; /* Set background color to grey */
+  color: white; /* Set text color to white for contrast */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.contact input[type="submit"]:hover {
+  background-color: darkgrey; /* Change to a darker grey on hover */
+}
+
+.error {
+  color: #ff4d4d; /* Red color for error messages */
+  font-size: 1em; /* Size of the error message */
+  text-align: left; /* Align text to the left */
+}
+
+.footer {
+  display: flex;
+  justify-content: center; /* Center the logos */
+  align-items: center; /* Center vertically */
+  padding: 20px; /* Add some padding */
+  background-color: #f8f9fa; /* Background color for the footer */
+}
+
+.logo {
+  width: 40px; /* Set a width for the logos */
+  height: auto; /* Maintain aspect ratio */
+  margin: 0 10px; /* Add some space between logos */
+  transition: transform 0.3s; /* Add a transition for hover effect */
+}
+
+.logo:hover {
+  transform: scale(1.1); /* Scale up the logo on hover */
+}
